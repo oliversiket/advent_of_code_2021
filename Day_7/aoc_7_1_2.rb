@@ -16,7 +16,6 @@ s.min..s.max.times do |i|
   fuel_count
 end
 
-puts fuel_count
 puts "minimum fuel: #{fuel_count.min_by(&:last)[1]}"
 
 #task2
@@ -34,5 +33,4 @@ s.min..s.max.times do |i|
   fuel_count
 end
 
-puts fuel_count
 puts "minimum fuel: #{fuel_count.min_by(&:last)[1]}"
